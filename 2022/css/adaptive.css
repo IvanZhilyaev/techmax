@@ -1,0 +1,291 @@
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+
+    header .logo {
+        font-size: 30px;
+        line-height: normal;
+        padding-top: 10px;
+        padding-bottom: 30px
+    }
+    
+    header .description {
+        width: 630px;
+    }
+
+    header .wrapper {
+        margin-left: 0;
+    }
+    footer .phone-number {
+        width: 190px;
+        margin-right: 25px;
+    }
+
+    footer .whatsup {
+        padding-left: 390px;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+    
+    header {
+        height: 400px;
+    }
+
+    header .logo {
+        font-size: 30px;
+        width: 500px;
+        line-height: normal;
+        margin-bottom: 15px;
+        padding-top: 30px;
+        text-align: center;
+        letter-spacing: normal;
+        letter-spacing: 10px;
+        padding-left: 140px;
+        margin-left: 40px;
+        background: url(../img/logo.PNG) center no-repeat;
+        background-size: 120px;
+        height: 125px;
+        background-position-x:left;
+        background-position-y: top;
+    }
+    header .description {
+        width: 520px;
+        margin-left: 110px;
+    }
+
+    header .wrapper {
+        text-align: center;
+        background: url(../);
+        height: 350px;
+    }
+
+    section .first-project img {
+        margin-right: 131px;
+    }
+
+    section h1 {
+        font-weight: 400;
+    }
+
+    section span {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    footer .whatsup {
+        padding-left: 170px;
+    }
+
+    footer .mobile {
+        width: 300px;
+        padding-right: 60px;
+    }
+
+    footer .phone-number {
+        width: 190px;
+        margin-right: 0;
+    }
+
+    section .our-projects {
+        width: 700px;
+    }
+    section .first-project, .second-project, .third-project, .fifth-project {
+        width: 700px;
+    }
+
+    footer .form {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        width: 540px;
+    }
+
+    header {
+        height: 500px;
+    }
+
+    header .wrapper {
+        height: 470px;
+    }
+
+    header .logo {
+        padding: 0;
+        margin: 0;
+        background-position: center top;
+        font-size: 30px;
+        background: none;
+        height: auto;
+        background: url(../img/logo.PNG) center no-repeat;
+        background-position: center top;
+        background-size: 125px;
+        padding-top: 125px;
+        margin-left: 19px;
+    }
+
+    header .description {
+        width: 540px;
+        letter-spacing: 3px;
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    section .our-projects {
+        width: 540px;
+        text-align: center;
+    }
+
+    section .first-project, .second-project, .third-project, .fifth-project, .fourth-project {
+        flex-direction: column;
+        width: 540px;
+        text-align: center;
+    }
+
+    section .first-project img {
+        margin: 0;
+        padding: 0;
+    }
+    
+    section .second-project img {
+        margin: 0;
+        padding: 0;
+    }
+    
+    section .third-project img {
+        margin: 0;
+        padding: 0;
+    }
+    
+    section .fifth-project img {
+        margin: 0;
+        padding: 0;
+    }
+    
+    section .fourth-project img {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }   
+    
+    section p {
+        padding-left: 110px;
+    }
+
+    section .project img {
+        margin-left: 140px;
+    }
+
+    footer .form {
+        width: 540px;
+    }
+
+    footer .sertificate {
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+    footer .whatsup {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 370px;
+    }
+
+    header .logo {
+        width: 350px;
+        margin-left: 14px;
+        padding-top: 125px;
+    }
+
+    header .description {
+        width: 350px;
+        margin-left: 11px;
+    }
+    
+    header {
+        height: 600px;
+    }
+
+    header .wrapper {
+        width: 370px;
+    }
+
+    section .our-projects {
+        width: 350px;
+    }
+
+    section .first-project, .second-project, .third-project, .fifth-project, .fourth-project {
+        width: 350px;
+    }
+
+    section p {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+    }
+
+    section .project img {
+        margin-left: 50px;
+        margin-bottom: 15px;
+    }
+
+    footer h1 {
+        margin-left: 8px;
+    }
+    
+    footer .form {
+        width: 350px;
+        margin-left: 8px;
+    }
+
+    footer .contact {
+        display: inline-block;
+        width: 350px;
+        margin-left: 8px;
+    }
+
+    footer .mobile {
+        background: url(../img/qrMobile.png) center no-repeat;
+        background-size: 50px;
+        background-position: right center;
+        height: 50px;
+        padding-right: 0;
+        width: 250px;
+    }
+
+    footer .whatsup {
+        padding-left: 0;
+        background: url(../img/qrWhatsUp.png) center no-repeat;
+        background-size: 50px;
+        background-position: start center;
+        height: 50px;
+    }
+
+    footer .whatsup {
+        width: 250px;
+    }
+
+    footer .sertificate {
+        margin-bottom: 10px;
+    }
+}

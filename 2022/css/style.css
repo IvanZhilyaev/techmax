@@ -1,0 +1,322 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*css style*/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(1, 1, 107);
+    color: white;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-left: 230px;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 15px;
+    font-weight: 300;
+}
+
+header .wrapper {
+    margin-left: 98px;
+    background: url(../img/logo.PNG) no-repeat center left;
+    background-size: 150px;
+    margin-left: 45px;
+}
+
+header .description {
+    margin-left: 230px;
+    margin-top: -10px;
+    width: 755px;
+    text-align: justify;
+    letter-spacing: 0.2em;
+}
+
+
+/* section */
+
+section h1 {
+    text-align: center;
+    display: inline-block;
+}
+
+section {
+    text-align: center;
+}
+
+section .our-projects {
+    display: inline-block;
+    margin-top: 100px;
+    width: 943px;
+    padding-bottom: 100px;
+}
+
+section .project {
+    display: flex;
+    margin-top: 50px;
+}
+section .project img {
+    margin-right: 82px;
+}
+
+section p {
+    width: 500px;
+    text-align: justify;
+    margin-left: 8px;
+}
+
+section .first-project, .second-project, .third-project, .fifth-project {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.419);
+    width: 810px;
+}
+
+section span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section img {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+section .first-project img {
+    width: 254px;
+    height: 239px;
+    margin-right: 100px;
+    background: whitesmoke;
+}
+
+section .second-project img {
+    width: 254px;
+    height: 156px;
+    background: whitesmoke;
+}
+
+section .third-project img {
+    width: 254px;
+    height: 143px;
+    background: whitesmoke;
+}
+
+section .fifth-project img {
+    width: 254px;
+    height: 159px;
+    background: whitesmoke;
+}
+
+section .fourth-project img {
+    width: 254px;
+    height: 189px;
+    background: whitesmoke;
+}
+
+
+
+/* footer*/
+
+footer {
+    background: rgb(1, 1, 107);
+    color: white;
+}
+
+footer h1 {
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer .form-all {
+    display: flex;
+}
+
+footer .sertificate {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+}
+
+footer .form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+footer .form * {
+    outline: none;
+}
+
+footer .input {
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease 0s;
+}
+
+footer .input:focus {
+    box-shadow: 0 0  30px rgb(121, 3, 212);
+}
+
+footer .text, .email, .phone {
+    margin-bottom: 20px;
+}
+
+footer .btn {
+    margin-bottom: 40px;
+}
+
+footer .textarea {
+    resize: vertical;
+    transition: all 0s;
+}
+
+footer .btn {
+    border: 0px solid;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: gray;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    top: 0px;
+    position: relative;
+}
+
+footer .btn:active {
+    top: 3px;
+}
+
+footer .btn:hover {
+    background-color: gray;
+    color: black;
+}
+
+footer h4 {
+    margin-right: 20px;
+}
+
+footer .contact {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+footer .whatsup {
+    background: url(../img/qrWhatsUp.png) bottom no-repeat;
+    background-position: right;
+    background-size: 50px;
+    padding-right: 45px;
+    padding-left: 675px;
+}
+
+footer .mobile {
+    background: url(../img/qrMobile.png) bottom no-repeat;
+    background-size: 50px;
+    background-position: right;
+    padding-right: 45px;
+    width: 260px;
+}
+
+footer .whatsup, .mobile {
+    height: 50px;
+}
