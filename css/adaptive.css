@@ -213,13 +213,15 @@
 
     header .logo {
         width: 350px;
-        margin-left: 14px;
         padding-top: 125px;
+        margin: 0;
+        display: inline-block;
     }
 
     header .description {
         width: 350px;
-        margin-left: 11px;
+        margin: 0;
+        display: inline-block;
     }
     
     header {
@@ -254,7 +256,7 @@
     }
     
     footer .form {
-        width: 350px;
+        width: 342px;
         margin-left: 8px;
     }
 
